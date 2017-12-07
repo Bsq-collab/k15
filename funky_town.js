@@ -8,11 +8,11 @@ var fibonacci= function(n){
   return fibonacci(n-1)+fibonacci(n-2);
 };
 
-console.log(fibbonacci(0));
-console.log(fibbonacci(1));
-console.log(fibbonacci(2));
-console.log(fibbonacci(3));
-console.log(fibbonacci(4));
+console.log(fibonacci(0));
+console.log(fibonacci(1));
+console.log(fibonacci(2));
+console.log(fibonacci(3));
+console.log(fibonacci(4));
 
 var gcd= function(a,b){
   a= Math.abs(a);
