@@ -28,3 +28,6 @@ var gcd= function(a,b){
     b=b%a;
   };
 }
+
+
+var l=['bob','smith']
