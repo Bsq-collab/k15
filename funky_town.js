@@ -8,6 +8,12 @@ var fibonacci= function(n){
   return fibonacci(n-1)+fibonacci(n-2);
 };
 
+console.log(fibbonacci(0));
+console.log(fibbonacci(1));
+console.log(fibbonacci(2));
+console.log(fibbonacci(3));
+console.log(fibbonacci(4));
+
 var gcd= function(a,b){
   a= Math.abs(a);
   b=Math.abs(b);
@@ -27,7 +33,24 @@ var gcd= function(a,b){
     }
     b=b%a;
   };
-}
+};
+
+console.log(gcd(0,10));
+console.log(gcd(0,0));
+console.log(gcd(15,20));
+console.log(gcd(7,5));
+console.log(gcd(31,13));
+console.log(gcd(0, 6666));
 
 
-var l=['bob','smith']
+var list=['bayan','bob','balloon','barbie','blue','bootstrap','bees','bright', 'bubbles'];
+
+var randomStudent=function(list){
+  var length=list.length;
+  return list[Math.floor(Math.random()*length)];
+};
+
+console.log(randomStudent(list));
+console.log(randomStudent(list));
+console.log(randomStudent(list));
+console.log(randomStudent(list));
